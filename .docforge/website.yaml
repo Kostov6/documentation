@@ -24,4 +24,4 @@ structure:
         url: /community
 - dir: docs
   structure:
-  - manifest: ./documentation/documentation.yaml
+#  - manifest: ./documentation/documentation.yaml
