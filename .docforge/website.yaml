@@ -23,6 +23,6 @@ structure:
       title: Community
       url: /community
   nodes:
-- name: docs
-  nodesSelector:
-    path: ./documentation/documentation.yaml
+# - name: docs
+#  nodesSelector:
+#    path: ./documentation/documentation.yaml
