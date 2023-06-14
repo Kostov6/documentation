@@ -22,7 +22,3 @@ structure:
     frontmatter:
       title: Community
       url: /community
-  nodes:
-- name: docs
-  nodesSelector:
-    path: ./documentation/documentation.yaml
