@@ -20,3 +20,4 @@ structure:
       title: Community
       url: /community
   nodes:
+  - source: https://github.com/gardener/documentation/blob/master/.docforge/documentation/guides.yaml
