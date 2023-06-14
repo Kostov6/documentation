@@ -42,7 +42,7 @@ structure:
       title: Networking
       weight: 30
   structure:
-   - file: DNS-extension
+  - file: DNS-extension
     properties:
       frontmatter:
         title: Managing DNS with Gardener
