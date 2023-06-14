@@ -1,14 +1,12 @@
-nodesSelector:
-  path: https://github.com/gardener/documentation/tree/master/website/documentation/guides
 structure:
-### /docs/guides/high-availability
-- name: high-availability
+- fileTree: https://github.com/gardener/documentation/tree/master/website/documentation/guides
+- dir: high-availability
   properties:
     frontmatter:
       title: High Availability
       weight: 20
-  nodes:
-  - name: best-practices
+  structure:
+  - file: best-practices
     properties:
       frontmatter:
         title: Best Practices
@@ -18,7 +16,7 @@ structure:
         publishdate: 2023-03-17
         aliases: ["/readmore/shoot-high-availability-best-practices"]
     source: https://github.com/gardener/gardener/blob/master/docs/usage/shoot_high_availability_best_practices.md
-  - name: control-plane
+  - file: control-plane
     properties:
       frontmatter:
         title: Control Plane
@@ -28,7 +26,7 @@ structure:
         publishdate: 2023-03-17
         aliases: ["/readmore/shoot-high-availability-control-plane"]
     source: https://github.com/gardener/gardener/blob/master/docs/usage/shoot_high_availability.md
-  - name: chaos-engineering
+  - file: chaos-engineering
     properties:
       frontmatter:
         title: Chaos Engineering
@@ -38,14 +36,13 @@ structure:
         publishdate: 2023-03-17
         aliases: ["/readmore/shoot-high-availability-chaos-engineering"]
     source: https://github.com/gardener/chaos-engineering/blob/main/docs/tutorials/getting_started.md
-### /docs/guides/networking
-- name: networking
+- dir: networking
   properties:
     frontmatter:
       title: Networking
       weight: 30
-  nodes:
-  - name: DNS-extension
+  structure:
+   - file: DNS-extension
     properties:
       frontmatter:
         title: Managing DNS with Gardener
@@ -57,7 +54,7 @@ structure:
         scope: operator
         aliases: ["/managing-dns-with-gardener", "/docs/015-guides/030-networking-lb/managed-dns"]
     source: https://github.com/gardener/gardener-extension-shoot-dns-service/blob/master/docs/usage/dns_names.md
-  - name: certificate-extension
+  - file: certificate-extension
     properties:
       frontmatter:
         title: Manage Certificates with Gardener
@@ -69,7 +66,7 @@ structure:
         scope: operator
         aliases: ["/managing-certificates-with-gardener", "/docs/015-guides/030-networking-lb/managed-certs-from-lets-encrypt"]
     source: https://github.com/gardener/gardener-extension-shoot-cert-service/blob/master/docs/usage/request_cert.md
-  - name: certificate-extension-default-domain
+  - file: certificate-extension-default-domain
     properties:
       frontmatter:
         title: Manage Certificates with Gardener for Default Domain
@@ -81,16 +78,3 @@ structure:
         scope: operator
         aliases: ["/managing-certificates-with-gardener-default-domain"]
     source: https://github.com/gardener/gardener-extension-shoot-cert-service/blob/master/docs/usage/request_default_domain_cert.md
-  # - name: shoot-istio-dns-certs
-  #   nodes:
-  #   - name: _index.md
-  #     properties:
-  #       frontmatter:
-  #         title: Create Shoot with Istio, Custom Domains, and Certificates
-  #         description: "A walkthrough for setting up clusters networking with Istio, custom domains and certificates"
-  #         level: beginner
-  #         publishdate: 2020-05-15
-  #         category: Networking
-  #         scope: operator
-  #         aliases: ["/shoot-with-istio-dns-certs"]
-  #     source: https://github.com/gardener/gardener-extension-shoot-cert-service/blob/master/docs/tutorial-custom-domain-with-istio.md
