@@ -7,11 +7,6 @@ structure:
         title: Adopters
         url: /adopter
 - dir: blog
-  properties:
-    frontmatter:
-      title: yataa
-      layout: blog-list
-      aggregate: true
   structure:
   - fileTree: /website/blog
 - dir: community
