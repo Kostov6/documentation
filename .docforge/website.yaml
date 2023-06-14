@@ -10,7 +10,6 @@ structure:
   nodesSelector:
     path: /website/blog
   properties:
-    index: true
     frontmatter:
       title: Blogs
       layout: blog-list
