@@ -15,8 +15,6 @@ structure:
       layout: blog-list
       aggregate: true
 - name: community
-  nodesSelector:
-    path: /website/community
   properties:
     frontmatter:
       title: Community
