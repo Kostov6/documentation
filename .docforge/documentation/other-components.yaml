@@ -1,11 +1,11 @@
 structure:
-- name: machine-controller-manager
+- dir: machine-controller-manager
   properties:
     frontmatter:
       title: Machine Controller Manager
       description: Declarative way of managing machines for Kubernetes cluster
-  nodes:
-  - name: deployment
+  structure:
+  - dir: deployment
     properties:
       frontmatter:
         title: Deployment
@@ -13,36 +13,36 @@ structure:
         categories:
           - Developers
           - Operators
-    nodesSelector:
-      path: https://github.com/gardener/machine-controller-manager/tree/master/docs/deployment
-  - name: development
+    structure:
+    - fileTree: https://github.com/gardener/machine-controller-manager/tree/master/docs/deployment
+  - dir: development
     properties:
       frontmatter:
         title: Development
         weight: 2
         categories:
           - Developers
-    nodesSelector:
-      path: https://github.com/gardener/machine-controller-manager/tree/master/docs/development
-  - name: documents
+    structure:
+    - fileTree: https://github.com/gardener/machine-controller-manager/tree/master/docs/development
+  - dir: documents
     properties:
       frontmatter:
         title: Documents
         weight: 3
         categories:
           - Developers
-    nodesSelector:
-      path: https://github.com/gardener/machine-controller-manager/tree/master/docs/documents
-  - name: proposals
+    structure:
+    - fileTree: https://github.com/gardener/machine-controller-manager/tree/master/docs/documents
+  - dir: proposals
     properties:
       frontmatter:
         title: Proposals
         weight: 4
         categories:
           - Developers
-    nodesSelector:
-      path: https://github.com/gardener/machine-controller-manager/tree/master/docs/proposals
-  - name: usage
+    structure:
+    - fileTree: https://github.com/gardener/machine-controller-manager/tree/master/docs/proposals
+  - dir: usage
     properties:
       frontmatter:
         title: Usage
@@ -50,12 +50,12 @@ structure:
         categories:
           - Users
           - Operators
-    nodesSelector:
-      path: https://github.com/gardener/machine-controller-manager/tree/master/docs/usage
-- name: etcd-druid
+    structure:
+    - fileTree: https://github.com/gardener/machine-controller-manager/tree/master/docs/usage
+- dir: etcd-druid
   properties:
     frontmatter:
       title: etcd Druid
       description: A druid for etcd management in Gardener
-  nodesSelector:
-    path: https://github.com/gardener/etcd-druid/blob/DEFAULT_BRANCH/.docforge/manifest.yaml
+  structure:
+  - manifest: https://github.com/gardener/etcd-druid/blob/DEFAULT_BRANCH/.docforge/manifest.yaml
