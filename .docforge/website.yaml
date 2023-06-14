@@ -16,7 +16,6 @@ structure:
       aggregate: true
 - name: community
   properties:
-    index: true
     frontmatter:
       title: Community
       url: /community
