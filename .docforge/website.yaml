@@ -9,7 +9,7 @@ structure:
 - dir: blog
   properties:
     frontmatter:
-      title: Blogs
+      title: yataa
       layout: blog-list
       aggregate: true
   structure:
