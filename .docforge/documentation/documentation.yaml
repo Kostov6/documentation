@@ -1,31 +1,31 @@
 structure:
-- name: gardener
+- dir: gardener
   properties:
     frontmatter:
       title: Gardener
       description: The core component providing the extension API server of your Kubernetes cluster
       weight: 1
       index: true
-  nodesSelector:
-    path: https://github.com/gardener/gardener/blob/DEFAULT_BRANCH/.docforge/manifest.yaml
-- name: extensions
+  structure:
+  - manifest: https://github.com/gardener/gardener/blob/DEFAULT_BRANCH/.docforge/manifest.yaml
+- dir: extensions
   properties:
     frontmatter:
       title: Extensions
       description: The infrastructure, networking, OS and other extension components for Gardener
       weight: 2
-  nodesSelector:
-    path: ./gardener-extensions/gardener-extensions.yaml
-- name: dashboard
+  structure:
+  - manifest: ./gardener-extensions/gardener-extensions.yaml
+- dir: dashboard
   properties:
     frontmatter:
       title: Dashboard
       description: The web UI for managing your projects and clusters
       weight: 3
       index: true
-  nodesSelector:
-    path: https://github.com/gardener/dashboard/blob/DEFAULT_BRANCH/.docforge/manifest.yaml
-- name: gardenctl-v2
+  structure:
+  - manifest: https://github.com/gardener/dashboard/blob/DEFAULT_BRANCH/.docforge/manifest.yaml
+- file: gardenctl-v2
   properties:
     frontmatter:
       aliases:
@@ -34,21 +34,21 @@ structure:
       description: The command line interface to control your clusters
       weight: 4
   source: https://github.com/gardener/gardenctl-v2/blob/master/README.md
-- name: other-components
+- dir: other-components
   properties:
     frontmatter:
       title: Other Components
       description: Other components included in the Gardener project
       weight: 5
-  nodesSelector:
-    path: ./other-components.yaml
-- name: guides
+  structure:
+  - manifest: ./other-components.yaml
+- dir: guides
   properties:
     frontmatter:
       title: Guides
       weight: 7
-  nodesSelector:
-    path: ./guides.yaml
+  structure:
+  - manifest: ./guides.yaml
 - name: faq
   properties:
     frontmatter:
@@ -57,27 +57,27 @@ structure:
       weight: 8
   nodesSelector:
     path: /website/documentation/faq
-- name: resources
+- dir: resources
   properties:
     frontmatter:
       title: Resources
       description: Interesting and useful content on Kubernetes
       weight: 9
-  nodesSelector:
-    path: /website/documentation/resources
-- name: glossary
+  structure:
+  - fileTree: /website/documentation/resources
+- dir: glossary
   properties:
     frontmatter:
       title: Glossary
       description: Commonly used Gardener specific terms
       weight: 10
-  nodesSelector:
-    path: /website/documentation/glossary
-- name: contribute
+  structure:
+  - fileTree: /website/documentation/glossary
+- dir: contribute
   properties:
     frontmatter:
       title: Contribute
       description: The project's contributor guide for code and documentation
       weight: 11
-  nodesSelector:
-    path: /website/documentation/contribute
+  structure:
+  - fileTree: /website/documentation/contribute
