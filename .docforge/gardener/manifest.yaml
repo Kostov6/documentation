@@ -10,7 +10,7 @@ structure:
       categories:
         - Developers
   structure:
-  - fileTree: https://github.com/gardener/gardener/blob/master/docs/api-reference
+  - fileTree: https://github.com/gardener/gardener/tree/master/docs/api-reference
 - dir: concepts
   properties:
     frontmatter:
