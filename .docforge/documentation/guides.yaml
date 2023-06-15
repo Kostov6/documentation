@@ -1,5 +1,5 @@
 structure:
-- fileTree: https://github.com/gardener/documentation/tree/master/website/documentation/guides
+- fileTree: /website/documentation/guides
 - dir: high-availability
   properties:
     frontmatter:
