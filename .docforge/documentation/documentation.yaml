@@ -7,7 +7,7 @@ structure:
       weight: 1
       index: true
   structure:
-  - manifest: https://github.com/gardener/gardener/blob/DEFAULT_BRANCH/.docforge/manifest.yaml
+  - manifest: /.docforge/gardener/manifest.yaml
 - dir: extensions
   properties:
     frontmatter:
