@@ -1,0 +1,6 @@
+structure:
+- file: _index.md
+  source: /README.md
+- dir: docs
+  structure:
+  - fileTree: https://github.com/gardener/gardener-extension-provider-gcp/tree/master/docs
