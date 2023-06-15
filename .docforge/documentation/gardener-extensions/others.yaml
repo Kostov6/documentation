@@ -5,25 +5,25 @@ structure:
       title: DNS services
       description: Gardener extension controller for DNS services for shoot clusters
   structure:
-  - manifest: /.docforge/common/docs.yaml
+  - manifest: /.docforge/gardener-extension-shoot-dns-service/manifest.yaml
 - dir: gardener-extension-shoot-cert-service
   properties:
     frontmatter:
       title: Certificate services
       description: Gardener extension controller for certificate services for shoot clusters
   structure:
-  - manifest: /.docforge/common/docs.yaml
+  - manifest: /.docforge/gardener-extension-shoot-cert-service/manifest.yaml
 - dir: gardener-extension-shoot-oidc-service
   properties:
     frontmatter:
       title: OpenID Connect services
       description: Gardener extension controller for OpenID Connect services for shoot clusters
   structure:
-  - manifest: /.docforge/common/docs.yaml
+  - manifest: /.docforge/gardener-extension-shoot-oidc-service/manifest.yaml
 - dir: gardener-extension-shoot-networking-filter
   properties:
     frontmatter:
       title: Egress filtering
       description: Gardener extension controller for egress filtering for shoot clusters
   structure:
-  - manifest: /.docforge/common/docs.yaml
+  - manifest: /.docforge/gardener-extension-shoot-networking-filter/manifest.yaml
