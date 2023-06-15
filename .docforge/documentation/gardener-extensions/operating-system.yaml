@@ -5,25 +5,25 @@ structure:
       title: Garden Linux OS
       description: Gardener extension controller for the Garden Linux operating system
   structure:
-  - manifest: https://github.com/gardener/gardener-extension-os-gardenlinux/blob/DEFAULT_BRANCH/.docforge/manifest.yaml
+  - manifest: /.docforge/common/index.yaml
 - dir: gardener-extension-os-suse-chost
   properties:
     frontmatter:
       title: SUSE CHost OS
       description: Gardener extension controller for the SUSE Container Host operating system (CHost)
   structure:
-  - manifest: https://github.com/gardener/gardener-extension-os-suse-chost/blob/DEFAULT_BRANCH/.docforge/manifest.yaml
+  - manifest: /.docforge/common/docs.yaml
 - dir: gardener-extension-os-ubuntu
   properties:
     frontmatter:
       title: Ubuntu OS
       description: Gardener extension controller for the Ubuntu operating system
   structure:
-  - manifest: https://github.com/gardener/gardener-extension-os-ubuntu/blob/DEFAULT_BRANCH/.docforge/manifest.yaml
+  - manifest: /.docforge/common/docs.yaml
 - dir: gardener-extension-os-coreos
   properties:
     frontmatter:
       title: CoreOS/FlatCar OS
       description: Gardener extension controller for the CoreOS/FlatCar Container Linux operating system
   structure:
-  - manifest: https://github.com/gardener/gardener-extension-os-coreos/blob/DEFAULT_BRANCH/.docforge/manifest.yaml
+  - manifest: /.docforge/common/docs.yaml
