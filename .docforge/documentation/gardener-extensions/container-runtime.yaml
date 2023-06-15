@@ -5,4 +5,4 @@ structure:
       title: GVisor container runtime
       description: Gardener extension controller for the gVisor container runtime sandbox
   structure:
-  - manifest: https://github.com/gardener/gardener-extension-runtime-gvisor/blob/DEFAULT_BRANCH/.docforge/manifest.yaml
+  - manifest: /.docforge/common/index.yaml
