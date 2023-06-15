@@ -1,0 +1,6 @@
+structure:
+- file: _index.md
+  source:  https://github.com/gardener/gardener-extension-os-ubuntu/blob/master/README.md
+- dir: docs
+  structure:
+  - fileTree: https://github.com/gardener/gardener-extension-os-ubuntu/tree/master/docs
