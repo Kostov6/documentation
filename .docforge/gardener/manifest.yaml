@@ -1,0 +1,70 @@
+structure:
+- file: _index.md
+  source: /README.md
+- dir: api-reference
+  properties:
+    frontmatter:
+      title: API Reference
+      weight: 1
+      aliases: "/api-reference/"
+      categories:
+        - Developers
+  structure:
+  - fileTree: https://github.com/gardener/gardener/blob/master/docs/api-reference
+- dir: concepts
+  properties:
+    frontmatter:
+      title: Concepts
+      weight: 2
+      categories:
+        - Operators
+        - Developers
+  structure:
+  - fileTree: https://github.com/gardener/gardener/tree/master/docs/concepts
+- dir: deployment
+  properties:
+    frontmatter:
+      title: Deployment
+      weight: 3
+      categories:
+        - Operators
+        - Developers
+  structure:
+  - fileTree: https://github.com/gardener/gardener/tree/master/docs/deployment
+- dir: development
+  properties:
+    frontmatter:
+      title: Development
+      weight: 4
+      categories:
+        - Developers
+  structure:
+  - fileTree: https://github.com/gardener/gardener/tree/master/docs/development
+- dir: extensions
+  properties:
+    frontmatter:
+      title: Extensions
+      weight: 5
+      categories:
+        - Developers
+  structure:
+  - fileTree: https://github.com/gardener/gardener/tree/master/docs/extensions
+- dir: monitoring
+  properties:
+    frontmatter:
+      title: Monitoring
+      weight: 6
+      categories:
+        - Operators
+  structure:
+  - fileTree: https://github.com/gardener/gardener/tree/master/docs/monitoring
+- dir: usage
+  properties:
+    frontmatter:
+      title: Usage
+      weight: 7
+      categories:
+        - Operators
+        - Users
+  structure:
+  - fileTree: https://github.com/gardener/gardener/tree/master/docs/usage
