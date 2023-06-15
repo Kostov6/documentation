@@ -49,7 +49,7 @@ structure:
       weight: 7
   structure:
   - manifest: ./guides.yaml
-- file: faq
+- dir: faq
   properties:
     frontmatter:
       title: FAQ
