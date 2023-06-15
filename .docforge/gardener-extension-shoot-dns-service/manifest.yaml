@@ -1,0 +1,6 @@
+structure:
+- file: _index.md
+  source:  https://github.com/gardener/gardener-extension-shoot-dns-service/blob/master/README.md
+- dir: docs
+  structure:
+  - fileTree: https://github.com/gardener/gardener-extension-shoot-dns-service/tree/master/docs
