@@ -7,32 +7,32 @@ structure:
       title: Architecture
       weight: 1
   structure:
-  - manifest: https://github.com/gardener/dashboard/tree/master/docs/architecture
+  - fileTree: https://github.com/gardener/dashboard/tree/master/docs/architecture
 - dir: concepts
   properties:
     frontmatter:
       title: Concepts
       weight: 2
   structure:
-  - manifest: https://github.com/gardener/dashboard/tree/docs/concepts
+  - fileTree: https://github.com/gardener/dashboard/tree/docs/concepts
 - dir: deployment
   properties:
     frontmatter:
       title: Deployment
       weight: 3
   structure:
-  - manifest: https://github.com/gardener/dashboard/tree/docs/deployment
+  - fileTree: https://github.com/gardener/dashboard/tree/docs/deployment
 - dir: development
   properties:
     frontmatter:
       title: Development
       weight: 4
   structure:
-  - manifest: https://github.com/gardener/dashboard/tree/docs/development
+  - fileTree: https://github.com/gardener/dashboard/tree/docs/development
 - dir: usage
   properties:
     frontmatter:
       title: Usage
       weight: 5
   structure:
-  - manifest: https://github.com/gardener/dashboard/tree/docs/usage
+  - fileTree: https://github.com/gardener/dashboard/tree/docs/usage
