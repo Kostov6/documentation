@@ -14,25 +14,25 @@ structure:
       title: Concepts
       weight: 2
   structure:
-  - fileTree: https://github.com/gardener/dashboard/tree/docs/concepts
+  - fileTree: https://github.com/gardener/dashboard/tree/master/docs/concepts
 - dir: deployment
   properties:
     frontmatter:
       title: Deployment
       weight: 3
   structure:
-  - fileTree: https://github.com/gardener/dashboard/tree/docs/deployment
+  - fileTree: https://github.com/gardener/dashboard/tree/master/docs/deployment
 - dir: development
   properties:
     frontmatter:
       title: Development
       weight: 4
   structure:
-  - fileTree: https://github.com/gardener/dashboard/tree/docs/development
+  - fileTree: https://github.com/gardener/dashboard/tree/master/docs/development
 - dir: usage
   properties:
     frontmatter:
       title: Usage
       weight: 5
   structure:
-  - fileTree: https://github.com/gardener/dashboard/tree/docs/usage
+  - fileTree: https://github.com/gardener/dashboard/tree/master/docs/usage
