@@ -24,7 +24,7 @@ structure:
       weight: 3
       index: true
   structure:
-  - manifest: https://github.com/gardener/dashboard/blob/DEFAULT_BRANCH/.docforge/manifest.yaml
+  - manifest: /.docforge/dashboard/manifest.yaml
 - file: gardenctl-v2
   properties:
     frontmatter:
@@ -49,14 +49,14 @@ structure:
       weight: 7
   structure:
   - manifest: ./guides.yaml
-- name: faq
+- file: faq
   properties:
     frontmatter:
       title: FAQ
       description: Commonly asked questions about Gardener
       weight: 8
-  nodesSelector:
-    path: /website/documentation/faq
+  structure:
+  - fileTree: /website/documentation/faq
 - dir: resources
   properties:
     frontmatter:
