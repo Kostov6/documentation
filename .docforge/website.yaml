@@ -1,26 +1,32 @@
 structure:
-- dir: adopter
+- dir: user
   structure:
-  - file: /website/adopter/_index.md
+  - dir: adopter
+    structure:
+    - file: /website/adopter/_index.md
+      properties:
+        frontmatter:
+          title: Adopters
+          url: /adopter
+- dir: ops
+  structure:
+  - dir: blog
     properties:
       frontmatter:
-        title: Adopters
-        url: /adopter
-- dir: blog
-  properties:
-    frontmatter:
-      title: yataa
-      layout: blog-list
-      aggregate: true
+        title: yataa
+        layout: blog-list
+        aggregate: true
+    structure:
+    - fileTree: /website/blog
+- dir: dev
   structure:
-  - fileTree: /website/blog
-- dir: community
-  structure:
-  - file:  /website/community/_index.md
-    properties:
-      frontmatter:
-        title: Community
-        url: /community
+  - dir: community
+    structure:
+    - file:  /website/community/_index.md
+      properties:
+        frontmatter:
+          title: Community
+          url: /community
 - dir: docs
   structure:
   - manifest: ./documentation/documentation.yaml
