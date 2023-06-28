@@ -1,0 +1,13 @@
+structure:
+- fileTree: /docs
+- file: _index.md
+  properties:
+    frontmatter:
+      title: etcd Druid
+      description: A druid for etcd management in Gardener
+  source: /README.md
+- file: api-reference
+  properties:
+    frontmatter:
+      title: API Reference
+  source: https://github.com/gardener/etcd-druid-api/blob/DEFAULT_BRANCH/docs/api-reference/druid.md

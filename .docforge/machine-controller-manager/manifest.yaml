@@ -1,0 +1,8 @@
+structure:
+- fileTree: /docs
+- file: _index.md
+  properties:
+    frontmatter:
+      title: Machine Controller Manager
+      description: Declarative way of managing machines for Kubernetes cluster
+  source: /README.md
