@@ -1,0 +1,8 @@
+structure:
+- fileTree: https://github.com/gardener/machine-controller-manager/tree/DEFAULT_BRANCH/docs
+- file: _index.md
+  properties:
+    frontmatter:
+      title: Machine Controller Manager
+      description: Declarative way of managing machines for Kubernetes cluster
+  source: https://github.com/gardener/machine-controller-manager/blob/DEFAULT_BRANCH/README.md
