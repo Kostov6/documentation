@@ -16,6 +16,7 @@ structure:
         title: yataa
         layout: blog-list
         aggregate: true
+        categories: nyoo
     structure:
     - fileTree: /website/blog
 - dir: dev
