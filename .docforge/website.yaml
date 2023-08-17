@@ -17,8 +17,7 @@ structure:
         aggregate: true
 - dir: community
   structure:
-  - fileTree: /website/community
-  - file: _index.md
+  - file: /website/community/_index.md
     properties:
       frontmatter:
         title: Community
