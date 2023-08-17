@@ -6,33 +6,34 @@ structure:
     frontmatter:
       title: Architecture
       weight: 1
+      categories:
+        - Developers
   structure:
   - fileTree: https://github.com/gardener/dashboard/tree/master/docs/architecture
-- dir: concepts
-  properties:
-    frontmatter:
-      title: Concepts
-      weight: 2
-  structure:
-  - fileTree: https://github.com/gardener/dashboard/tree/master/docs/concepts
-- dir: deployment
-  properties:
-    frontmatter:
-      title: Deployment
-      weight: 3
-  structure:
-  - fileTree: https://github.com/gardener/dashboard/tree/master/docs/deployment
 - dir: development
   properties:
     frontmatter:
       title: Development
-      weight: 4
+      weight: 2
+      categories:
+        - Developers
   structure:
   - fileTree: https://github.com/gardener/dashboard/tree/master/docs/development
+- dir: operations
+  properties:
+    frontmatter:
+      title: Operations
+      weight: 3
+      categories:
+        - Operators
+  structure:
+  - fileTree: https://github.com/gardener/dashboard/tree/master/docs/operations
 - dir: usage
   properties:
     frontmatter:
       title: Usage
-      weight: 5
+      weight: 4
+      categories:
+        - Users
   structure:
   - fileTree: https://github.com/gardener/dashboard/tree/master/docs/usage
