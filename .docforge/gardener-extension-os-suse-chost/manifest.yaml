@@ -1,6 +1,12 @@
 structure:
 - file: _index.md
   source:  https://github.com/gardener/gardener-extension-os-suse-chost/blob/master/README.md
-- dir: docs
+- dir: usage
+  properties:
+    frontmatter:
+      title: Usage
+      weight: 3
+      categories:
+        - Users
   structure:
-  - fileTree: https://github.com/gardener/gardener-extension-os-suse-chost/tree/master/docs
+  - fileTree: https://github.com/gardener/gardener-extension-os-suse-chost/tree/master/docs/usage
