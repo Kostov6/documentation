@@ -1,6 +1,21 @@
 structure:
 - file: _index.md
   source:  https://github.com/gardener/gardener-extension-shoot-dns-service/blob/master/README.md
-- dir: docs
+- dir: operations
+  properties:
+    frontmatter:
+      title: Operations
+      weight: 2
+      categories:
+        - Operators
   structure:
-  - fileTree: https://github.com/gardener/gardener-extension-shoot-dns-service/tree/master/docs
+  - fileTree: https://github.com/gardener/gardener-extension-shoot-dns-service/tree/DEFAULT_BRANCH/docs/operations
+- dir: usage
+  properties:
+    frontmatter:
+      title: Usage
+      weight: 3
+      categories:
+        - Users
+  structure:
+  - fileTree: https://github.com/gardener/gardener-extension-shoot-dns-service/tree/DEFAULT_BRANCH/docs/usage
