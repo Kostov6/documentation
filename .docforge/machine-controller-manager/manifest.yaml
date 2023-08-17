@@ -14,7 +14,7 @@ structure:
       weight: 2
       categories:
         - Developers
-  struct:
+  structure:
   - fileTree:  https://github.com/gardener/machine-controller-manager/tree/DEFAULT_BRANCH/docs/development
 - dir: documents
   properties:
@@ -25,15 +25,15 @@ structure:
         - Developers
   structure:
   - fileTree:  https://github.com/gardener/machine-controller-manager/tree/DEFAULT_BRANCH/docs/documents
-- name: operations
+- dir: operations
   properties:
     frontmatter:
       title: Operations
       weight: 4
       categories:
         - Operators
-  nodesSelector:
-    path: /docs/operations
+  structure:
+  - fileTree: https://github.com/gardener/machine-controller-manager/tree/DEFAULT_BRANCH/docs/operations
 - dir: proposals
   properties:
     frontmatter:
