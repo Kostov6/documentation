@@ -1,6 +1,6 @@
 structure:
 - file: _index.md
-  source:  https://github.com/gardener/gardener-extension-provider-aws/blob/master/README.md
+  source:  https://github.com/gardener/gardener-extension-provider-aws/blob/DEFAULT_BRANCH/README.md
 - dir: development
   properties:
     frontmatter:
@@ -9,7 +9,7 @@ structure:
       categories:
         - Developers
   structure:
-  - fileTree: https://github.com/gardener/gardener-extension-provider-aws/tree/master/docs/development
+  - fileTree: https://github.com/gardener/gardener-extension-provider-aws/tree/DEFAULT_BRANCH/docs/development
 - dir: operations
   properties:
     frontmatter:
@@ -18,7 +18,7 @@ structure:
       categories:
         - Operators
   structure:
-  - fileTree: https://github.com/gardener/gardener-extension-provider-aws/tree/master/docs/operations
+  - fileTree: https://github.com/gardener/gardener-extension-provider-aws/tree/DEFAULT_BRANCH/docs/operations
 - dir: usage
   properties:
     frontmatter:
@@ -27,7 +27,7 @@ structure:
       categories:
         - Users
   structure:
-  - fileTree: https://github.com/gardener/gardener-extension-provider-aws/tree/master/docs/usage
+  - fileTree: https://github.com/gardener/gardener-extension-provider-aws/tree/DEFAULT_BRANCH/docs/usage
 - dir: tutorials
   properties:
     frontmatter:
@@ -36,4 +36,4 @@ structure:
       categories:
         - Developers
   structure:
-  - fileTree: https://github.com/gardener/gardener-extension-provider-aws/tree/master/docs/tutorials
+  - fileTree: https://github.com/gardener/gardener-extension-provider-aws/tree/DEFAULT_BRANCH/docs/tutorials
