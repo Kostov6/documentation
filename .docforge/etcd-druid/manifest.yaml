@@ -3,11 +3,50 @@ structure:
 - file: _index.md
   properties:
     frontmatter:
-      title: etcd Druid
+      title: Etcd Druid
       description: A druid for etcd management in Gardener
   source: https://github.com/gardener/etcd-druid/blob/DEFAULT_BRANCH/README.md
 - file: api-reference
   properties:
     frontmatter:
       title: API Reference
+      weight: 1
+      categories:
+        - Developers
   source: https://github.com/gardener/etcd-druid-api/blob/DEFAULT_BRANCH/docs/api-reference/druid.md
+- dir: deployment
+  properties:
+    frontmatter:
+      title: Deployment
+      weight: 2
+      categories:
+        - Operators
+  structure:
+  - fileTree: https://github.com/gardener/etcd-druid-api/blob/DEFAULT_BRANCH/docs/deployment
+- dir: development
+  properties:
+    frontmatter:
+      title: Development
+      weight: 3
+      categories:
+        - Developers
+  structure:
+  - fileTree: https://github.com/gardener/etcd-druid-api/blob/DEFAULT_BRANCH/docs/development
+- dir: operations
+  properties:
+    frontmatter:
+      title: Operations
+      weight: 4
+      categories:
+        - Operators
+  structure:
+  - fileTree: https://github.com/gardener/etcd-druid-api/blob/DEFAULT_BRANCH/docs/operations
+- dir: proposals
+  properties:
+    frontmatter:
+      title: Proposals
+      weight: 5
+      categories:
+        - Developers
+  structure:
+  - fileTree: https://github.com/gardener/etcd-druid-api/blob/DEFAULT_BRANCH/docs/proposals
