@@ -7,14 +7,13 @@ structure:
         title: Adopters
         url: /adopter
 - dir: blog
+  properties:
+    frontmatter:
+      title: Blogs
+      layout: blog-list
+      aggregate: true
   structure:
   - fileTree: /website/blog
-  - file: _index.md
-    properties:
-      frontmatter:
-        title: Blogs
-        layout: blog-list
-        aggregate: true
 - dir: community
   structure:
   - file: /website/community/_index.md
