@@ -7,70 +7,47 @@ structure:
       title: API Reference
       weight: 1
       aliases: "/api-reference/"
-      categories:
-        - Developers
+      categorY: Developers
   structure:
-  - fileTree: https://github.com/gardener/gardener/tree/master/docs/api-reference
+  - fileTree: https://github.com/gardener/gardener/tree/DEFAULT_BRANCH/docs/api-reference
 - dir: concepts
   properties:
     frontmatter:
       title: Concepts
       weight: 2
-      categories:
-        - Operators
+      categorY: Operators
   structure:
-  - fileTree: https://github.com/gardener/gardener/tree/master/docs/concepts
+  - fileTree: https://github.com/gardener/gardener/tree/DEFAULT_BRANCH/docs/concepts
 - dir: deployment
   properties:
     frontmatter:
       title: Deployment
       weight: 3
-      categories:
-        - Operators
+      categorY: Operators
   structure:
-  - fileTree: https://github.com/gardener/gardener/tree/master/docs/deployment
+  - fileTree: https://github.com/gardener/gardener/tree/DEFAULT_BRANCH/docs/deployment
 - dir: development
-  properties:
-    frontmatter:
-      title: Development
-      weight: 4
-      categories:
-        - Developers
   structure:
-  - fileTree: https://github.com/gardener/gardener/tree/master/docs/development
+  - fileTree: https://github.com/gardener/gardener/tree/DEFAULT_BRANCH/docs/development
 - dir: extensions
   properties:
     frontmatter:
       title: Extensions
-      weight: 5
-      categories:
-        - Developers
+      weight: 4
+      categorY: Developers
   structure:
-  - fileTree: https://github.com/gardener/gardener/tree/master/docs/extensions
+  - fileTree: https://github.com/gardener/gardener/tree/DEFAULT_BRANCH/docs/extensions
 - dir: monitoring
   properties:
     frontmatter:
       title: Monitoring
-      weight: 6
-      categories:
-        - Operators
+      weight: 5
+      categorY: Operators
   structure:
-  - fileTree: https://github.com/gardener/gardener/tree/master/docs/monitoring
+  - fileTree: https://github.com/gardener/gardener/tree/DEFAULT_BRANCH/docs/monitoring
 - dir: operations
-  properties:
-    frontmatter:
-      title: Operations
-      weight: 7
-      categories:
-        - Operators
   structure:
-  - fileTree: https://github.com/gardener/gardener/tree/master/docs/operations
+  - fileTree: https://github.com/gardener/gardener/tree/DEFAULT_BRANCH/docs/operations
 - dir: usage
-  properties:
-    frontmatter:
-      title: Usage
-      weight: 8
-      categories:
-        - Users
   structure:
-  - fileTree: https://github.com/gardener/gardener/tree/master/docs/usage
+  - fileTree: https://github.com/gardener/gardener/tree/DEFAULT_BRANCH/docs/usage

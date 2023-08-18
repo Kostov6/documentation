@@ -1,30 +1,12 @@
 structure:
 - file: _index.md
-  source:  https://github.com/gardener/gardener-extension-shoot-cert-service/blob/master/README.md
+  source:  https://github.com/gardener/gardener-extension-shoot-cert-service/blob/DEFAULT_BRANCH/README.md
 - dir: operations
-  properties:
-    frontmatter:
-      title: Operations
-      weight: 2
-      categories:
-        - Operators
   structure:
   - fileTree: https://github.com/gardener/gardener-extension-shoot-cert-service/tree/DEFAULT_BRANCH/docs/operations
 - dir: usage
-  properties:
-    frontmatter:
-      title: Usage
-      weight: 3
-      categories:
-        - Users
   structure:
   - fileTree: https://github.com/gardener/gardener-extension-shoot-cert-service/tree/DEFAULT_BRANCH/docs/usage
 - dir: tutorials
-  properties:
-    frontmatter:
-      title: Tutorials
-      weight: 4
-      categories:
-        - Developers
   structure:
   - fileTree: https://github.com/gardener/gardener-extension-shoot-cert-service/tree/DEFAULT_BRANCH/docs/tutorials

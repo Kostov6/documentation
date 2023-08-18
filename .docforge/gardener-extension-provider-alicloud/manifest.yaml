@@ -1,39 +1,20 @@
 structure:
 - file: _index.md
-  source:  https://github.com/gardener/gardener-extension-provider-alicloud/blob/master/README.md
+  source:  https://github.com/gardener/gardener-extension-provider-alicloud/blob/DEFAULT_BRANCH/README.md
 - dir: development
-  properties:
-    frontmatter:
-      title: Development
-      weight: 1
-      categories:
-        - Developers
   structure:
-  - fileTree: https://github.com/gardener/gardener-extension-provider-alicloud/tree/master/docs/development
+  - fileTree: https://github.com/gardener/gardener-extension-provider-alicloud/tree/DEFAULT_BRANCH/docs/development
 - dir: operations
-  properties:
-    frontmatter:
-      title: Operations
-      weight: 2
-      categories:
-        - Operators
   structure:
-  - fileTree: https://github.com/gardener/gardener-extension-provider-alicloud/tree/master/docs/operations
+  - fileTree: https://github.com/gardener/gardener-extension-provider-alicloud/tree/DEFAULT_BRANCH/docs/operations
 - dir: usage
-  properties:
-    frontmatter:
-      title: Usage
-      weight: 3
-      categories:
-        - Users
   structure:
-  - fileTree: https://github.com/gardener/gardener-extension-provider-alicloud/tree/master/docs/usage
+  - fileTree: https://github.com/gardener/gardener-extension-provider-alicloud/tree/DEFAULT_BRANCH/docs/usage
 - dir: tutorials
   properties:
     frontmatter:
       title: Tutorials
-      weight: 4
-      categories:
-        - Developers
+      weight: 1
+      categorY: Developers
   structure:
-  - fileTree: https://github.com/gardener/gardener-extension-provider-alicloud/tree/master/docs/tutorials
+  - fileTree: https://github.com/gardener/gardener-extension-provider-alicloud/tree/DEFAULT_BRANCH/docs/tutorials

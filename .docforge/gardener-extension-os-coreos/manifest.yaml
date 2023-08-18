@@ -1,12 +1,6 @@
 structure:
 - file: _index.md
-  source:  https://github.com/gardener/gardener-extension-os-coreos/blob/master/README.md
+  source:  https://github.com/gardener/gardener-extension-os-coreos/blob/DEFAULT_BRANCH/README.md
 - dir: usage
-  properties:
-    frontmatter:
-      title: Usage
-      weight: 3
-      categories:
-        - Users
   structure:
-  - fileTree: https://github.com/gardener/gardener-extension-os-coreos/tree/master/docs/usage
+  - fileTree: https://github.com/gardener/gardener-extension-os-coreos/tree/DEFAULT_BRANCH/docs/usage

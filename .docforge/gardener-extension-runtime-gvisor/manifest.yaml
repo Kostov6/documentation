@@ -1,4 +1,4 @@
 structure:
 - file: _index.md
-  source: https://github.com/gardener/gardener-extension-runtime-gvisor/blob/master/README.md
+  source: https://github.com/gardener/gardener-extension-runtime-gvisor/blob/DEFAULT_BRANCH/README.md
 
