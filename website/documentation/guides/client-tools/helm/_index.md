@@ -1,7 +1,7 @@
 ---
 title: Use a Helm Chart to Deploy an Application or Service
 level: intermediate
-category: Helm
+persona: Helm
 scope: app-developer
 ---
 

@@ -1,6 +1,4 @@
 structure:
 - file: _index.md
   source:  https://github.com/gardener/gardener-extension-os-coreos/blob/DEFAULT_BRANCH/README.md
-- dir: usage
-  structure:
-  - fileTree: https://github.com/gardener/gardener-extension-os-coreos/tree/DEFAULT_BRANCH/docs/usage
+- fileTree: https://github.com/gardener/gardener-extension-os-coreos/tree/DEFAULT_BRANCH/docs

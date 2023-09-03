@@ -3,7 +3,7 @@ title:  Scalability of Gardener Managed Kubernetes Clusters
 description: "Know the boundary conditions when scaling your workloads"
 level: advanced
 index: 40
-category: Operations
+persona: Operations
 scope: Users
 publishdate: 2023-05-23
 ---
@@ -114,7 +114,7 @@ You should be aware that the `Node` configuration impacts your workload's perfor
 Switching to an I/O optimized instance type (if offered for your infrastructure) can help to resolve issue. Please keep in mind that disks used via `PersistentVolumeClaims` have I/O limits as well. Sometimes these limits are related to the size and/or can be increased for individual disks.  
 
 ### Cloud Provider (Infrastructure) Limits
-In addition to the already mentioned capacity restrictions, a cloud provider may impose other limitations to a Kubernetes cluster's scalability. One category is the account quota defining the number of resources allowed globally or per region. Make sure to request appropriate values that suit your needs and contain a buffer, for example for having more `Nodes` during a rolling update.
+In addition to the already mentioned capacity restrictions, a cloud provider may impose other limitations to a Kubernetes cluster's scalability. One persona is the account quota defining the number of resources allowed globally or per region. Make sure to request appropriate values that suit your needs and contain a buffer, for example for having more `Nodes` during a rolling update.
 
 Another dimension is the network throughput per VM or network interface. While you may be able to choose a network-optimized `Node` type for your workload to mitigate issues, you cannot influence the available bandwidth for control plane components. Therefore, please ensure that the traffic on the ETCD does not exceed 100MB/s. The ETCD dashboard provides data for monitoring this metric.
 

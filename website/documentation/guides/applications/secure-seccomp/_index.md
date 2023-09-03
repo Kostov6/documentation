@@ -1,7 +1,7 @@
 ---
 title: Custom Seccomp Profile
 level: advanced
-category: Security
+persona: Security
 scope: operator
 ---
 

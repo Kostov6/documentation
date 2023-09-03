@@ -1,13 +1,13 @@
 structure:
 - file: _index.md
-  source: /README.md
+  source: https://github.com/gardener/gardener/tree/DEFAULT_BRANCH/docs/README.md
 - dir: api-reference
   properties:
     frontmatter:
       title: API Reference
       weight: 1
       aliases: "/api-reference/"
-      categorY: Developers
+      persona: Developers
   structure:
   - fileTree: https://github.com/gardener/gardener/tree/DEFAULT_BRANCH/docs/api-reference
 - dir: concepts
@@ -15,7 +15,7 @@ structure:
     frontmatter:
       title: Concepts
       weight: 2
-      categorY: Operators
+      persona: Operators
   structure:
   - fileTree: https://github.com/gardener/gardener/tree/DEFAULT_BRANCH/docs/concepts
 - dir: deployment
@@ -23,7 +23,7 @@ structure:
     frontmatter:
       title: Deployment
       weight: 3
-      categorY: Operators
+      persona: Operators
   structure:
   - fileTree: https://github.com/gardener/gardener/tree/DEFAULT_BRANCH/docs/deployment
 - dir: development
@@ -34,7 +34,7 @@ structure:
     frontmatter:
       title: Extensions
       weight: 4
-      categorY: Developers
+      persona: Developers
   structure:
   - fileTree: https://github.com/gardener/gardener/tree/DEFAULT_BRANCH/docs/extensions
 - dir: monitoring
@@ -42,7 +42,7 @@ structure:
     frontmatter:
       title: Monitoring
       weight: 5
-      categorY: Operators
+      persona: Operators
   structure:
   - fileTree: https://github.com/gardener/gardener/tree/DEFAULT_BRANCH/docs/monitoring
 - dir: operations

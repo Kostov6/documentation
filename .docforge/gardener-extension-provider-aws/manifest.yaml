@@ -1,20 +1,10 @@
 structure:
 - file: _index.md
   source:  https://github.com/gardener/gardener-extension-provider-aws/blob/DEFAULT_BRANCH/README.md
-- dir: development
-  structure:
-  - fileTree: https://github.com/gardener/gardener-extension-provider-aws/tree/DEFAULT_BRANCH/docs/development
-- dir: operations
-  structure:
-  - fileTree: https://github.com/gardener/gardener-extension-provider-aws/tree/DEFAULT_BRANCH/docs/operations
-- dir: usage
-  structure:
-  - fileTree: https://github.com/gardener/gardener-extension-provider-aws/tree/DEFAULT_BRANCH/docs/usage
+- fileTree: https://github.com/gardener/gardener-extension-provider-aws/tree/DEFAULT_BRANCH/docs
 - dir: tutorials
   properties:
     frontmatter:
       title: Tutorials
       weight: 1
-      categorY: Developers
-  structure:
-  - fileTree: https://github.com/gardener/gardener-extension-provider-aws/tree/DEFAULT_BRANCH/docs/tutorials
+      persona: Developers

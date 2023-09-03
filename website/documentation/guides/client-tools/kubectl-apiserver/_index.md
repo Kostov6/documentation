@@ -2,7 +2,7 @@
 title: Automated Deployment
 description: "Automated deployment with kubectl"
 level: advanced
-category: CI/CD
+persona: CI/CD
 scope: app-developer
 ---
 

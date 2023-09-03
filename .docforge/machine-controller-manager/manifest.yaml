@@ -7,41 +7,29 @@ structure:
       weight: 1
       description: Declarative way of managing machines for Kubernetes cluster
   source:  https://github.com/gardener/machine-controller-manager/blob/DEFAULT_BRANCH/README.md
-- dir: development
-  structure:
-  - fileTree:  https://github.com/gardener/machine-controller-manager/tree/DEFAULT_BRANCH/docs/development
 - dir: documents
   properties:
     frontmatter:
       title: Documents
       weight: 2
-      categorY: Developers
-  structure:
-  - fileTree:  https://github.com/gardener/machine-controller-manager/tree/DEFAULT_BRANCH/docs/documents
-- dir: operations
-  structure:
-  - fileTree: https://github.com/gardener/machine-controller-manager/tree/DEFAULT_BRANCH/docs/operations
+      persona: Developers
 - dir: proposals
   properties:
     frontmatter:
       title: Proposals
       weight: 3
-      categorY: Developers
-  structure:
-  - fileTree:  https://github.com/gardener/machine-controller-manager/tree/DEFAULT_BRANCH/docs/proposals
+      persona: Developers
 - dir: todo
   properties:
     frontmatter:
       title: ToDo
       weight: 4
-      categorY: Developers
-  structure:
-  - fileTree:  https://github.com/gardener/machine-controller-manager/tree/DEFAULT_BRANCH/docs/todo
-- file: faq
-  properties:
-    frontmatter:
-      title: FAQ
-      description: Frequently Asked Questions
-      weight: 5
-      categorY: Operators
-  source:  https://github.com/gardener/machine-controller-manager/blob/DEFAULT_BRANCH/docs/FAQ.md
+      persona: Developers
+#- file: faq
+#  properties:
+#    frontmatter:
+#      title: FAQ
+#      description: Frequently Asked Questions
+#      weight: 5
+#      persona: Operators
+#  source:  https://github.com/gardener/machine-controller-manager/blob/DEFAULT_BRANCH/docs/FAQ.md

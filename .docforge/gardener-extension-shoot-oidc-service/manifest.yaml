@@ -1,9 +1,4 @@
 structure:
 - file: _index.md
   source:  https://github.com/gardener/gardener-extension-shoot-oidc-service/blob/DEFAULT_BRANCH/README.md
-- dir: operations
-  structure:
-  - fileTree: https://github.com/gardener/gardener-extension-shoot-oidc-service/tree/DEFAULT_BRANCH/docs/operations
-- dir: usage
-  structure:
-  - fileTree: https://github.com/gardener/gardener-extension-shoot-oidc-service/tree/DEFAULT_BRANCH/docs/usage
+- fileTree: https://github.com/gardener/gardener-extension-shoot-oidc-service/tree/DEFAULT_BRANCH/docs

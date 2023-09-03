@@ -1,5 +1,4 @@
 structure:
-- fileTree: https://github.com/gardener/etcd-druid/tree/DEFAULT_BRANCH/docs
 - file: _index.md
   properties:
     frontmatter:
@@ -11,27 +10,6 @@ structure:
     frontmatter:
       title: API Reference
       weight: 1
-      categorY: Developers
+      persona: Developers
   source: https://github.com/gardener/etcd-druid-api/blob/DEFAULT_BRANCH/docs/api-reference/druid.md
-- dir: deployment
-  properties:
-    frontmatter:
-      title: Deployment
-      weight: 2
-      categorY: Operators
-  structure:
-  - fileTree: https://github.com/gardener/etcd-druid-api/tree/DEFAULT_BRANCH/docs/deployment
-- dir: development
-  structure:
-  - fileTree: https://github.com/gardener/etcd-druid-api/tree/DEFAULT_BRANCH/docs/development
-- dir: operations
-  structure:
-  - fileTree: https://github.com/gardener/etcd-druid-api/tree/DEFAULT_BRANCH/docs/operations
-- dir: proposals
-  properties:
-    frontmatter:
-      title: Proposals
-      weight: 3
-      categorY: Developers
-  structure:
-  - fileTree: https://github.com/gardener/etcd-druid-api/tree/DEFAULT_BRANCH/docs/proposals
+- fileTree: https://github.com/gardener/etcd-druid-api/tree/DEFAULT_BRANCH/docs

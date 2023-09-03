@@ -3,7 +3,7 @@ title: Install Knative in Gardener Clusters
 description: A walkthrough the steps for installing Knative in Gardener shoot clusters.
 level: intermediate
 index: 10
-category: Setup
+persona: Setup
 scope: app-developer
 ---
 
