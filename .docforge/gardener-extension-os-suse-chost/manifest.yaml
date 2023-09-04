@@ -1,4 +1,0 @@
-structure:
-- file: _index.md
-  source:  https://github.com/gardener/gardener-extension-os-suse-chost/blob/DEFAULT_BRANCH/README.md
-- fileTree: https://github.com/gardener/gardener-extension-os-suse-chost/tree/DEFAULT_BRANCH/docs

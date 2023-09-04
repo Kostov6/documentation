@@ -1,4 +1,0 @@
-structure:
-- file: _index.md
-  source:  https://github.com/gardener/gardener-extension-shoot-cert-service/blob/DEFAULT_BRANCH/README.md
-- fileTree: https://github.com/gardener/gardener-extension-shoot-cert-service/tree/DEFAULT_BRANCH/docs
