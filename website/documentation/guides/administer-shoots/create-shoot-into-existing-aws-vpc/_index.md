@@ -1,7 +1,7 @@
 ---
 title: Create a Shoot Cluster Into an Existing AWS VPC
 level: intermediate
-persona: Operation
+category: Operation
 scope: app-developer
 ---
 

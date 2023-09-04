@@ -4,7 +4,7 @@ description: "Wrong Container Image or Invalid Registry Permissions"
 level: beginner
 reviewer: Tieyan Fu
 last_reviewed: 22.06.2018
-persona: Fails
+category: Fails
 scope: app-developer
 ---
 

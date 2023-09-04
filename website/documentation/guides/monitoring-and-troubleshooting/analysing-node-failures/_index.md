@@ -2,7 +2,7 @@
 title: Analyzing Node Removal and Failures
 description: "Utilize Gardener's Monitoring and Logging to analyze removal and failures of nodes"
 level: intermediate
-persona: Debugging
+category: Debugging
 scope: operator
 ---
 

@@ -2,7 +2,7 @@
 title: Orchestration of Container Startup
 description: "How to orchestrate a startup sequence of multiple containers"
 level: beginner
-persona: Getting Started
+category: Getting Started
 scope: app-developer
 ---
 

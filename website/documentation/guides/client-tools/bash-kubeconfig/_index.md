@@ -5,7 +5,7 @@ level: beginner
 reviewer: Tieyan Fu
 status: Reviewed
 last_reviewed: 29.05.2018
-persona: kubectl
+category: kubectl
 scope: app-developer
 ---
 

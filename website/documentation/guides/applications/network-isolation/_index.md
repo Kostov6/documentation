@@ -2,7 +2,7 @@
 title: Namespace Isolation
 description: "Deny all traffic from other namespaces"
 level: advanced
-persona: Networking
+category: Networking
 scope: app-developer
 ---
 

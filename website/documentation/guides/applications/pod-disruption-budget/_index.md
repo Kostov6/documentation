@@ -2,7 +2,7 @@
 title: Specifying a Disruption Budget for Kubernetes Controllers
 level: beginner
 index: 10
-persona: Getting Started
+category: Getting Started
 scope: app-developer
 featured: true
 publishdate: 2022-06-21

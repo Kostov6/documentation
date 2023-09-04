@@ -1,7 +1,7 @@
 ---
 title:  Organizing Access Using kubeconfig Files
 level: intermediate
-persona: Security
+category: Security
 scope: app-developer
 ---
 

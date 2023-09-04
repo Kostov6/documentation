@@ -2,7 +2,7 @@
 title: Integrity and Immutability
 description: "Ensure that you always get the right image"
 level: intermediate
-persona: Docker Registry
+category: Docker Registry
 scope: app-developer
 ---
 

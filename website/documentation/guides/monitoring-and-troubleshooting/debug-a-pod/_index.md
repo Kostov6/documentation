@@ -5,7 +5,7 @@ level: intermediate
 reviewer: Tieyan Fu
 status: Reviewed
 last_reviewed: 19.06.2018
-persona: Debugging
+category: Debugging
 scope: app-developer
 ---
 

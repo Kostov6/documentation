@@ -1,7 +1,7 @@
 ---
 title: Create / Delete a Shoot Cluster
 level: advanced
-persona: Operation
+category: Operation
 scope: operator
 ---
 
